@@ -1,0 +1,13 @@
+// কপি বাটন ফাংশনালিটি
+document.querySelectorAll('.copy-btn').forEach(button => {
+    button.addEventListener('click', function() {
+        const couponCode = this.previousElementSibling.textContent;
+        navigator.clipboard.writeText(couponCode);
+        
+        this.textContent = 'কপি করা হয়েছে!';
+        
+        setTimeout(() => {
+            this.textContent = 'কপি করুন';
+        }, 2000);
+    });
+});

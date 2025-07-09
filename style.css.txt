@@ -1,0 +1,17 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ff0036;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* বাকি CSS কোড পূর্বের মতো */
